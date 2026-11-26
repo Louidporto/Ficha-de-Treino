@@ -33,14 +33,14 @@
       --bg-page: #f6f9f7;
       --bg-card: #ffffff;
       --bg-subtle: #ecf3ee;
-      --text-main: #0f2419;
+      --text-main: #0f172a;
       --text-muted: #527060;
       --border-color: #d8e6dd;
-      --accent-primary: #059669;
-      --accent-hover: #047857;
+      --accent-primary: #7C3AED;
+      --accent-hover: #7C3AED;
       --accent-soft: #ecfdf5;
       --accent-border: #a7f3d0;
-      --accent-text: #065f46;
+      --accent-text: #7C3AED;
     }
 
     [data-theme="neutral"] {
@@ -148,7 +148,7 @@
         <!-- Seletor de Temas Claros -->
         <div class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl theme-subtle border" style="border-color: var(--border-color);" title="Trocar tema claro">
           <button onclick="setTheme('blue')" class="w-5 h-5 rounded-full bg-blue-600 ring-2 ring-offset-1 ring-transparent focus:outline-none transition-transform hover:scale-110" id="theme-btn-blue" aria-label="Tema Azul Claro"></button>
-          <button onclick="setTheme('sage')" class="w-5 h-5 rounded-full bg-emerald-600 ring-2 ring-offset-1 ring-transparent focus:outline-none transition-transform hover:scale-110" id="theme-btn-sage" aria-label="Tema Verde Suave"></button>
+          <button onclick="setTheme('sage')" class="w-5 h-5 rounded-full bg-purple-600 ring-2 ring-offset-1 ring-transparent focus:outline-none transition-transform hover:scale-110" id="theme-btn-sage" aria-label="Tema Verde Suave"></button>
           <button onclick="setTheme('neutral')" class="w-5 h-5 rounded-full bg-zinc-700 ring-2 ring-offset-1 ring-transparent focus:outline-none transition-transform hover:scale-110" id="theme-btn-neutral" aria-label="Tema Cinza Neutro"></button>
         </div>
 
@@ -602,7 +602,7 @@
           title: 'Pull A — Costas, Posterior e Bíceps',
           exercises: [
             {
-              id: 'ex-5',
+              id: 'ex-7',
               name: 'Puxada Alta na Polia',
               sets: '3x 8-10',
               weight: '35 kg ',
@@ -612,13 +612,53 @@
               completed: false
             },
             {
-              id: 'ex-6',
-              name: 'Rosca Direta com Barra W',
+              id: 'ex-8',
+              name: 'Remada Baixa na Polia',
               sets: '3x 10-12',
-              weight: '12 kg / lado',
+              weight: '35 kg ',
               rest: '60s',
-              notes: 'Evitar movimentar os cotovelos para frente.',
-              gif: '',
+              notes: '',
+              gif: "https://treinomestre.com.br/wp-content/uploads/2026/09/remada-baixa-na-polia.gif",
+              completed: false
+            },
+            {
+              id: 'ex-9',
+              name: 'Elevaçao Frontal Com Anilha',
+              sets: '3x 10-12',
+              weight: '20 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/elevacao-frontal-com-anilha-v2.gif",
+              completed: false
+            },
+            {
+              id: 'ex-10',
+              name: 'Rosca Alternada',
+              sets: '3x 10-12',
+              weight: '10 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://treinoemalta.com.br/wp-content/uploads/2023/07/Rosca-Alternada-com-Halteres.gif",
+              completed: false
+            },
+            {
+              id: 'ex-11',
+              name: 'Rosca Direta Na Polia',
+              sets: '3x 10-12',
+              weight: '30 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://treinomestre.com.br/wp-content/uploads/2025/09/rosca-direta-na-polia-como-fazer-musculos.gif",
+              completed: false
+            },
+            {
+              id: 'ex-12',
+              name: 'Rosca Alternada 45º Graus',
+              sets: '3x 10-12',
+              weight: '10 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/rosca-alternada-inclinada.gif",
               completed: false
             }
           ]
@@ -630,27 +670,57 @@
           title: 'Legs A — Quadríceps, Posterior e Panturrilha',
           exercises: [
             {
-              id: 'ex-7',
-              name: 'Agachamento Livre',
-              sets: '4x 8-10',
-              weight: '30 kg / lado',
-              rest: '120s',
-              notes: 'Descer controlando até quebrar a paralela.',
-              gif: PRESET_GIFS[2].url,
+              id: 'ex-13',
+              name: 'Corrida Na Esteira',
+              sets: '5 Min',
+              weight: '',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.mundoboaforma.com.br/wp-content/uploads/2021/04/corrida-na-esteira-inclinada-1.gif",
               completed: false
             },
             {
-              id: 'ex-8',
+              id: 'ex-14',
               name: 'Leg Press 45°',
               sets: '3x 12',
-              weight: '140 kg',
+              weight: '80 kg',
               rest: '90s',
               notes: 'Não travar os joelhos na subida.',
-              gif: PRESET_GIFS[2].url,
+              gif: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-OA5XPPsdUWzKlDwj4xeXSIzzbJeb4J3NqTU7uv4FQ&s=10",
               completed: false
             },
             {
-              id: 'ex-9',
+              id: 'ex-15',
+              name: 'Extensao de Pernas Sentado',
+              sets: '3x 12',
+              weight: '80 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://media.tenor.com/bqKtsSuqilQAAAAM/gym.gif",
+              completed: false
+            },
+            {
+              id: 'ex-16',
+              name: 'Flexao de Pernas Sentado',
+              sets: '3x 12',
+              weight: '60 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2024/12/cadeira-flexora.gif",
+              completed: false
+            },
+            {
+              id: 'ex-17',
+              name: 'Flexao de Pernas Deitado',
+              sets: '3x 12',
+              weight: '60 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://www.mundoboaforma.com.br/wp-content/uploads/2021/04/pernas-flexao-de-pernas-na-maquina.gif",
+              completed: false
+            },
+            {
+              id: 'ex-18',
               name: 'Panturrilha em Pé',
               sets: '4x 15-20',
               weight: '50 kg',
@@ -668,23 +738,63 @@
           title: 'Push B — Foco Ombros e Peito Superior',
           exercises: [
             {
-              id: 'ex-10',
-              name: 'Supino Inclinado com Halteres',
-              sets: '4x 10-12',
-              weight: '22 kg',
+              id: 'ex-1',
+              name: 'Crucifixo Voador MAQ',
+              sets: '4x 8-10',
+              weight: '35 Kg ',
               rest: '90s',
-              notes: 'Banco inclinado a 30 graus.',
-              gif: PRESET_GIFS[0].url,
+              notes: '',
+              gif: "https://treinomestre.com.br/wp-content/uploads/2021/06/peck-deck-como-fazer.gif",
               completed: false
             },
             {
-              id: 'ex-11',
-              name: 'Elevação Lateral',
-              sets: '4x 12-15',
-              weight: '10 kg',
+              id: 'ex-2',
+              name: 'Supino Reto',
+              sets: '3x 10-12',
+              weight: '20 kg',
+              rest: '75s',
+              notes: '',
+              gif: "https://media1.tenor.com/m/3bJRUkfLN3EAAAAd/supino-na-maquina.gif",
+              completed: false
+            },
+            {
+              id: 'ex-3',
+              name: 'Elevaçao Lateral',
+              sets: '3x 12-15',
+              weight: '9 kg',
               rest: '60s',
-              notes: 'Subir até a linha dos ombros controlando a descida.',
-              gif: '',
+              notes: '',
+              gif: 'https://i.pinimg.com/originals/07/b9/ef/07b9efd167b276436972bb2e5d168477.gif',
+              completed: false
+            },
+            {
+              id: 'ex-4',
+              name: 'Extençao Triceps Por Trás Polia Alta',
+              sets: '3x 12-15',
+              weight: '20 kg',
+              rest: '60s',
+              notes: '',
+              gif: 'https://i.pinimg.com/originals/76/81/16/76811680eec31ca72fa346b79c734931.gif?nii=t',
+              completed: false
+            },
+            {
+              id: 'ex-5',
+              name: 'Extensao Triceps Polia',
+              sets: '3x 12-15',
+              weight: '25 kg',
+              rest: '60s',
+              notes: '',
+              gif: 'https://i0.wp.com/meutreinador.com/wp-content/uploads/2023/12/05_Extensao-de-Triceps-na-Polia.gif?fit=1080%2C1080&ssl=1',
+              completed: false
+            },
+            {
+              id: 'ex-6',
+              name: 'Extensao Triceps Por Trás Polia Baixa',
+              sets: '3x 12-15',
+              weight: '25 kg',
+              rest: '60s',
+              notes: '',
+              gif: 'https://image.tuasaude.com/media/article/qv/do/treino-de-triceps-em-casa_74250.gif?width=686&height=487',
               completed: false
             }
           ]
@@ -696,23 +806,63 @@
           title: 'Pull B — Espessura de Costas e Braços',
           exercises: [
             {
-              id: 'ex-12',
-              name: 'Remada Baixa Triângulo',
-              sets: '4x 10-12',
-              weight: '50 kg',
+              id: 'ex-7',
+              name: 'Puxada Alta na Polia',
+              sets: '3x 8-10',
+              weight: '35 kg ',
               rest: '90s',
-              notes: 'Alongar bem as escápulas na volta.',
-              gif: PRESET_GIFS[1].url,
+              notes: '',
+              gif: "https://image.tuasaude.com/media/article/uh/yp/puxada-frontal_75625.gif?width=686&height=487",
               completed: false
             },
             {
-              id: 'ex-13',
-              name: 'Rosca Martelo com Halteres',
-              sets: '3x 12',
-              weight: '14 kg',
+              id: 'ex-8',
+              name: 'Remada Baixa na Polia',
+              sets: '3x 10-12',
+              weight: '35 kg ',
               rest: '60s',
-              notes: 'Execução alternada ou simultânea.',
-              gif: '',
+              notes: '',
+              gif: "https://treinomestre.com.br/wp-content/uploads/2026/09/remada-baixa-na-polia.gif",
+              completed: false
+            },
+            {
+              id: 'ex-9',
+              name: 'Elevaçao Frontal Com Anilha',
+              sets: '3x 10-12',
+              weight: '20 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/elevacao-frontal-com-anilha-v2.gif",
+              completed: false
+            },
+            {
+              id: 'ex-10',
+              name: 'Rosca Alternada',
+              sets: '3x 10-12',
+              weight: '10 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://treinoemalta.com.br/wp-content/uploads/2023/07/Rosca-Alternada-com-Halteres.gif",
+              completed: false
+            },
+            {
+              id: 'ex-11',
+              name: 'Rosca Direta Na Polia',
+              sets: '3x 10-12',
+              weight: '30 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://treinomestre.com.br/wp-content/uploads/2025/09/rosca-direta-na-polia-como-fazer-musculos.gif",
+              completed: false
+            },
+            {
+              id: 'ex-12',
+              name: 'Rosca Alternada 45º Graus',
+              sets: '3x 10-12',
+              weight: '10 kg ',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2018/09/rosca-alternada-inclinada.gif",
               completed: false
             }
           ]
@@ -724,22 +874,62 @@
           title: 'Legs B — Posterior de Coxa e Glúteos',
           exercises: [
             {
+              id: 'ex-13',
+              name: 'Corrida Na Esteira',
+              sets: '5 Min',
+              weight: '',
+              rest: '60s',
+              notes: '',
+              gif: "https://www.mundoboaforma.com.br/wp-content/uploads/2021/04/corrida-na-esteira-inclinada-1.gif",
+              completed: false
+            },
+            {
               id: 'ex-14',
-              name: 'Stiff com Barra',
-              sets: '4x 10',
-              weight: '20 kg / lado',
+              name: 'Leg Press 45°',
+              sets: '3x 12',
+              weight: '80 kg',
               rest: '90s',
-              notes: 'Quadril para trás mantendo a barra rente às pernas.',
-              gif: PRESET_GIFS[2].url,
+              notes: 'Não travar os joelhos na subida.',
+              gif: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-OA5XPPsdUWzKlDwj4xeXSIzzbJeb4J3NqTU7uv4FQ&s=10",
               completed: false
             },
             {
               id: 'ex-15',
-              name: 'Mesa Flexora',
-              sets: '4x 12-15',
-              weight: '35 kg',
-              rest: '60s',
-              notes: 'Manter quadril encostado no banco.',
+              name: 'Extensao de Pernas Sentado',
+              sets: '3x 12',
+              weight: '80 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://media.tenor.com/bqKtsSuqilQAAAAM/gym.gif",
+              completed: false
+            },
+            {
+              id: 'ex-16',
+              name: 'Flexao de Pernas Sentado',
+              sets: '3x 12',
+              weight: '60 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://www.hipertrofia.org/blog/wp-content/uploads/2024/12/cadeira-flexora.gif",
+              completed: false
+            },
+            {
+              id: 'ex-17',
+              name: 'Flexao de Pernas Deitado',
+              sets: '3x 12',
+              weight: '60 kg',
+              rest: '90s',
+              notes: '',
+              gif: "https://www.mundoboaforma.com.br/wp-content/uploads/2021/04/pernas-flexao-de-pernas-na-maquina.gif",
+              completed: false
+            },
+            {
+              id: 'ex-18',
+              name: 'Panturrilha em Pé',
+              sets: '4x 15-20',
+              weight: '50 kg',
+              rest: '45s',
+              notes: 'Pausa de 1 segundo no alongamento e no pico.',
               gif: '',
               completed: false
             }
